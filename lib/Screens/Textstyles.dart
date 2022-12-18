@@ -20,13 +20,15 @@ class _TextstylesState extends State<Textstyles> {
       ),
       body: Container(
         child: Text("this is the text to be styled.",
+          textAlign:TextAlign.center,
           style: TextStyle(
           color:Colors.blue,
           backgroundColor: Colors.yellow,
           fontSize: 30,
           letterSpacing: 2,
           fontStyle: FontStyle.italic,
-          fontWeight: FontWeight.bold
+          fontWeight: FontWeight.bold,
+
         ),
       ),
       ),
